@@ -1,0 +1,256 @@
+/*====================
+----GENERAL STYLES----
+======================*/
+
+html{
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+body{
+	padding-left: 75px;
+	font-family: 'Tahoma Regular';
+}
+
+.container{
+	width: 100%;
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+.btn{
+	font-size: 1.5rem;
+	display: inline-block;
+	text-transform: uppercase;
+	color:#fff;
+}
+
+.banner h2,
+.banner span,
+.banner h1,
+.banner p,
+.main-section p,
+.block h3,
+.block p,
+footer ul li{
+	-webkit-transition: font-size 0.3s ease-in;
+	transition: font-size 0.3s ease-in;
+}
+
+
+/*====================
+---------NAV----------
+======================*/
+
+nav{
+	display: block;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 75px;
+	height: 100vh;
+	background: #000;
+	font-size: 0;
+}
+
+/*---Toggle button---*/
+
+.toogle{
+	display: none;
+	width: 30px;
+	height: 3px;
+	background: #7a7a7a;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+}
+
+.toogle:before,
+.toogle:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: inherit;
+}
+
+.toogle:before{
+	top: 10px;
+}
+
+.toogle:after{
+	top: 20px;
+}
+
+
+/*====================
+---------HEADER-------
+======================*/
+
+header{
+	width: 100%;
+	background: url(../images/Background-Image.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	padding: 31px 0 70px 0;
+}
+
+.banner{
+	padding: 0 6% 0 6%;
+}
+
+.banner h2{
+	display: inline-block;
+	font-size: 1.875rem;
+	text-transform: uppercase;
+	margin-right: 24px;
+}
+
+.banner span{
+	font-size: 1.1875rem;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+
+.banner h1{
+	font-size:3.75rem;
+	margin: 80px 0 38px 0;
+}
+
+.banner h1:first-letter{
+	text-transform: uppercase;
+}
+
+.banner p{
+	font:1.875rem Vijaya;
+	line-height: 1.3;
+	max-width: 713px;
+	margin-bottom: 48px;
+}
+
+.banner-btn{
+	font-size:1.875rem;
+	border:2px solid #9ea2a5;
+	padding: 17px 27px;
+	margin-left: 6%;
+	transform: translateY(10px);
+}
+
+
+/*====================
+---------MAIN---------
+======================*/
+
+.main-section{
+	padding: 80px 6% 50px 6%;
+}
+
+.main-section-blocks:after{
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.main-section-blocks{
+	border-bottom: 2px solid #f0f1f1;
+	padding-bottom: 16px;
+}
+
+.main-section p{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	margin-bottom: 13px;
+}
+
+.block{
+	width: 23%;
+	float:left;
+	text-align: center;
+	padding: 1%;
+}
+
+.block h3{
+	font-size: 2.25rem;
+	margin-bottom: 24px;
+}
+
+.block p{
+	font:1.5rem Vijaya;
+}
+
+
+/*====================
+---------FOOTER-------
+======================*/
+
+.footer-section{
+	text-align: center;
+	position: relative;
+	padding:0 6% 20px 6%;
+}
+
+footer{
+	padding-bottom: 50px;
+}
+
+footer ul{
+	margin-bottom: 20px;
+}
+
+footer ul li{
+	font-size: 1rem;
+	display: inline-block;
+	margin-right: 50px;
+	color: #454d52;
+}
+
+footer ul li:first-child{
+	text-transform: uppercase;
+}
+
+footer ul li:last-child:first-letter{
+	text-transform: uppercase;
+}
+
+.footer-btn{
+	display: block;
+	float: right;
+}
+
+.footer-btn{
+	display: inline-block;
+	font-size: 22px;
+	background: #67798f;
+	padding: 10px 15px;
+	-webkit-transform: translateY(-33px);
+	transform: translateY(-33px);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
